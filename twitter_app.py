@@ -13,11 +13,10 @@ import sys
 os.environ['SPARK_HOME'] = '/usr/local/spark'
 sys.path.append("/usr/local/spark/python")
 
-access_token = '870110281036443648-1xzIfb4fH5nbmoELpg4h3eSPo5AP1X3'
-access_secret = 'SCwS1dvEFb1yTx0pIVFJhFX9TRfF5614iQbx3nN4Y9DRP'
-consumer_secret = 'sXatThDz7604cnRRKMP8wrTXb'
-consumer_secret = '2oCd08ikyBcefcFceVKZVaH2GdG8Z2BSsZFzhAT4aw1ZOYEalr'
-consumer_key = 'sXatThDz7604cnRRKMP8wrTXb'
+access_token = 'youraccesstoken'
+access_secret = 'youraccesssecret'
+consumer_secret = 'yourconsumersecret'
+consumer_key = 'yourconsumerkey'
 
 class TweetsListener(StreamListener):
     def __init__(self, csocket):
